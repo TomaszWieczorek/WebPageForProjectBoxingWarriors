@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/styl.css">
+<title>Kontakt</title>
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+<meta charset="utf-8">
+</head>
+<body>
+<div class="glowny-kontener">
+<audio controls="controls" class="dzwiek" loop>
+		  <source src="materialy/music.mp3" type="audio/mp3" />
+		  Your browser does not support the audio element.
+</audio>
+<img class="naglowek" src="materialy/logo.png">
+
+
+<div class="menu">
+
+	<ul>
+     		<li><a href="index.html">Strona<br />główna</a></li>
+     		<li><a href="cennik.html">Cennik<br />karnetów</a></li>
+     		<li><a href="plan.html">Plan<br />treningów</a></li>
+     		<li><a href="kontakt.html">Kontakt<br /> do nas</a></li>
+	</ul>
+
+</div>
+
+	<div class="powitanie">
+		<h1>Kontakt</h1>
+	</div>
+
+	<div class="kontakt">
+		<h2> Dane Pracowników:</h2>
+		<h4 class="napis"> Mamed Khalidov </h4>
+		+48 000 000 000 <br />
+		<a class="mail" href="mailto:mamedkhalidov@boxingwarriors.pl">mamedkhalidov@boxingwarriors.pl</a>
+		<h4 class="napis"> Adam Nowak </h4>
+		+48 000 000 000<br />
+		<a class="mail" href="mailto:adamnowak@boxingwarriors.pl">adamnowak@boxingwarriors.pl</a>
+		<h4 class="napis"> Jan Kowalski </h4>
+		+48 000 000 000 <br />
+		<a class="mail" href="mailto:jankowalski@boxingwarriors.pl">jankowalski@boxingwarriors.pl</a>
+		
+		<h2>Adres:</h2>
+		Nasza siedziba znajduje się na:<br /> 
+		<b class="napis">ul. Spokojna 87 <br />
+		43-175 Wyry</b>
+		<br />
+		<br />
+		<br />
+		<h2> Mapa: </h2>
+		<div id="map"></div>
+	</div>
+
+	<div id="reklama">
+		<a href="cennik.html"><b>Tylko teraz! Wielka promocja! Pierwsza godzina gratis!</b></a>
+	</div>
+
+	
+
+	<div class="footer">
+		<hr>
+		<script type="text/javascript"> 
+			data = new Date();
+			document.write ("Dzisiejsza data: <b>" + data.toLocaleString() + "</b>");
+		</script>
+		<p>Treści na stronie objęte są Prawem Autorskim.<br>
+			Tomasz Wieczorek © 2017</p>
+	</div>
+	
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="scriptMapa.js"></script>
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsGykA1-_FLkEOefgBTY2NV6D9CxpJzt4&callback=initMap">
+    </script>
+</div>
+
+</body>
+</html>

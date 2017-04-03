@@ -1,0 +1,458 @@
+body
+{
+	background-color: #2e3034;
+	color: #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	overflow-x: hidden
+}
+
+.glowny-kontener
+{
+	background-color: rgb(18, 18, 19);
+	width: 95%;
+	max-width: 1100px;
+	display:block;
+	margin:auto;
+	-webkit-box-shadow: 0 0 30px 0 rgba(15,15,15,.35);
+    box-shadow: 0 0 30px 0 rgba(15,15,15,.35);
+}
+
+.glowny-kontener p
+{
+	padding: 10px 20px;
+}
+img.naglowek
+{
+	display: block;
+	max-height: 140px;
+	width: auto;
+	margin: auto;
+	padding: 20px;
+}
+.gif
+{
+	padding: 0px 20px;
+	width : 50%;
+	height : auto;
+	max-width : 350px;
+	max-height: 200px;
+    margin: auto;
+	float: left;
+}
+
+#reklama:hover {
+	background-color:#00FF00;
+	color: #000000;
+	font-weight: bold;
+}
+
+.menu{
+	position:relative;
+	left: 1.5%;
+}
+
+.tresc {
+	color:#FFFFFF;
+	left:5px;
+	position:relative;
+	display:block;
+	width:100%;
+}
+
+.informacje{
+	position:static;
+	float:left;
+	text-align:center;
+	display:block;
+	width:100%;
+	height:auto;
+}
+
+.napis 
+{
+	color:#FF0000;
+}
+
+
+
+@media all and (max-width: 500px) {
+
+	#reklama {
+	position: absolute; top: 40px; right: 0;
+	padding: 10px; 
+	background-color: #FF0000;
+	color: #ffffff;
+	font: bolder 12px ;
+	width: 200px;
+	text-align: center;
+	float: right;
+	font-weight: bold;
+}
+	.powitanie{
+		color: #FFFFFF;
+		float: center;
+		display:block;
+		font-size: 10px;
+		text-align:center;
+	}
+	.filmik {
+		position : static;
+		display: block;
+		float: center;
+		width: 100%;
+		height:auto;
+	}
+	.youtube
+	{
+		height:100px;
+		width:60%;
+	}
+	.informacjeNaglowek {
+		text-align: center;
+		float: left;
+		font-size: 10px;
+		position: static;
+		width:100%;
+	}
+	ul {
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		height:50px;
+		text-align:center;
+	}
+
+	ul li {
+		float: left;
+		border-top:1px solid #FFFFFF;
+		border-bottom: 1px solid #FFFFFF;
+		border-left: 1px solid #FFFFFF;
+		border-right: 1px solid #FFFFFF;
+		background-color:#FF0000;
+		width:24%;
+	}
+
+	ul li a {
+		display:block;
+		background-color:#FF0000;
+		color:#000000;
+		font-family: Verdana;
+		font-size:10px;
+		text-decoration:none;
+		padding:10px 15px;
+		font-weight: bold ;
+		text-align: center;
+		vertical-align: center;
+	}
+
+	ul li a:hover {
+		color:#ffffff;
+		background-color: #339933;
+	}
+	tr.topCennik {
+		border: 2px solid white;
+		font-size:3vw;
+		font-weight:bold;
+	}
+	tr.topPlan {
+		border: 2px solid white;
+		font-size:1.5vw;
+		font-weight:bold;
+	}
+	.cennik {	
+		font-weight:normal;
+		font-size:2.5vw;
+	}
+	#map {
+        height: 100px;
+        width: 100%;
+       }
+}
+
+@media all and (min-width: 500px) {
+	#reklama {
+	position: absolute; top: 40px; right: 200%;
+	padding: 10px; 
+	background-color: #FF0000;
+	color: #ffffff;
+	font: bolder 16px ;
+	width: 300px;
+	text-align: center;
+	float: right;
+	font-weight: bold;
+}
+	.powitanie{
+		color: #FFFFFF;
+		text-align: center;
+		float: center;
+		display:block;
+		font-size: 12px;
+	}
+	.filmik {
+		position : static;
+		display: block;
+		float: center;
+		width: 100%;
+		height:500px;
+	}
+	.youtube
+	{
+		height:300px;
+		width:60%;
+	}
+	.informacjeNaglowek {
+		text-align: center;
+		float: left;
+		font-size: 12px;
+		position: static;
+		width:100%;
+	}
+	ul {
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		height:50px;
+		text-align:center;
+	}
+
+	ul li {
+		float: left;
+		border-top:1px solid #FFFFFF;
+		border-bottom: 1px solid #FFFFFF;
+		border-left: 1px solid #FFFFFF;
+		border-right: 1px solid #FFFFFF;
+		background-color:#FF0000;
+		width:24%;
+	}
+
+	ul li a {
+		display:block;
+		background-color:#FF0000;
+		color:#000000;
+		font-family: Verdana;
+		font-size:13px;
+		text-decoration:none;
+		padding:10px 15px;
+		font-weight: bold ;
+		text-align: center;
+		vertical-align: center;
+	}
+
+
+	ul li a:hover {
+		color:#ffffff;
+		background-color: #339933;
+	}
+	tr.topCennik {
+		border: 2px solid white;
+		font-size:3vw;
+	}
+	tr.topPlan {
+		border: 2px solid white;
+		font-size:1.5vw;
+		font-weight:bold;
+	}
+	.cennik {	
+		font-weight:normal;
+		font-size:2.5vw;
+	}	
+	.plan
+	{
+		font-weight:normal;
+		font-size:2.5vw;
+	}
+	#map {
+        height: 300px;
+        width: 100%;
+       }
+	   
+	th {
+		padding:10px;
+	}
+}
+
+@media all and (min-width: 801px) {
+	#reklama {
+	position: absolute; top: 40px; right: 0;
+	padding: 10px; 
+	background-color: #FF0000;
+	color: #ffffff;
+	font: bolder 20px ;
+	width: 400px;
+	text-align: center;
+	float: right;
+	font-weight: bold;
+	}
+	.powitanie{
+		color: #FFFFFF;
+		text-align: center;
+		float: center;
+		display:block;
+		font-size: 20px;
+	}
+
+	.filmik {
+		position : static;
+		display: block;
+		float: center;
+		width: 100%;
+		height:auto;
+	}
+	.youtube
+	{
+		height:500px;
+		width:60%;
+	}
+	
+	.informacjeNaglowek {
+		text-align: center;
+		float: left;
+		font-size: 20px;
+		position: static;
+		width:98%;
+	}
+
+	ul {
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		height:50px;	
+	}
+
+	ul li {
+		float: left;
+		border-top:1px solid #FFFFFF;
+		border-bottom: 1px solid #FFFFFF;
+		border-left: 1px solid #FFFFFF;
+		border-right: 1px solid #FFFFFF;
+		background-color:#FF0000;
+		width:24%;
+	}
+
+	ul li a {
+		display:block;
+		background-color:#FF0000;
+		color:#000000;
+		font-family: Verdana;
+		font-size:16px;
+		text-decoration:none;
+		padding:10px 15px;
+		font-weight: bold ;
+	}
+
+	ul li a:hover {
+		color:#ffffff;
+		background-color: #339933;
+	}
+	
+	tr.topCennik {
+		border: 2px solid white;
+		font-size:25px;
+	}
+	.cennik {	
+		font-weight:normal;
+		font-size:16px;
+	}
+	tr.topPlan {
+		border: 2px solid white;
+		font-size:1.5vw;
+		font-weight:bold;
+	}
+	.plan
+	{
+		font-weight:normal;
+		font-size:20px;
+	}
+	#map {
+        height: 500px;
+        width: 100%;
+       }
+	th.tooltip {
+		padding:20px;
+	}
+	th.tooltip1 {
+		padding:20px;
+	}
+}
+
+.footer
+{
+	text-align: center;
+	font-size: 13px;
+}
+
+table {
+    border: 2px solid white;
+	border-collapse: collapse;
+    width: 99%;
+}
+
+tr {
+	border: 0.5px solid white;
+}
+
+.promocja {
+	color: #FF0000;
+}
+
+.kontakt {
+	text-align: center;
+}
+	   
+.mail {
+	color:lightblue;
+}
+h4 {
+	margin-bottom: 0px;
+}
+
+.tooltip {
+    position: relative;
+	color:#FF0000;
+}
+.tooltip1 {
+    position: relative;
+	color:#00FF00;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+	font-size:12px;
+}
+.tooltip1 .tooltiptext {
+    visibility: hidden;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+	font-size:12px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.tooltip1:hover .tooltiptext {
+    visibility: visible;
+}
+
+.przerwa {
+	padding:1px;
+}
+
+.dzwiek {
+	position: absolute;
+	width: 30%;
+}
